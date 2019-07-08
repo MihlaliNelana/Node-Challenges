@@ -1,0 +1,19 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "A simple weather API",
+  "main": "\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[Dint: .html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihlaliNelana/WeatherAPI.git"
+  },
+  "author": "Mihlali Nelana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MihlaliNelana/WeatherAPI/issues"
+  },
+  "homepage": "https://github.com/MihlaliNelana/WeatherAPI#readme"
+}
