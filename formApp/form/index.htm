@@ -1,0 +1,82 @@
+<html>
+   <head>
+      <title>Umuzi Demo Portal</title>
+      <style>
+         body {
+    background-color: lightblue;
+    text-align: center;
+    
+  }
+  
+  h1 {
+   margin-top: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  input {
+     margin-bottom:5px;
+}
+      </style>
+   </head>
+   <body>
+      <h1>UMUZI DEMO PORTAL</h1>
+      <p>Please provide us with the following information</p>
+      <form action = "http://127.0.0.1:8081/process_get" method = "GET">
+         
+         First Name: <input type = "text" name = "first_name">  <br>
+         
+         Last Name: <input type = "text" name = "last_name">   <br>
+         
+         Gender <input type="radio" name="gender" value="male"> Male
+         <input type="radio" name="gender" value="female"> Female<br>
+         
+         Age: <input type="text" name="age"> <br>  
+         
+         Department
+         <select name="dept">
+            <option value="copy">Copywrite Department</option>
+            <option value="multi">Multimedia Department</option>
+            <option value="start">Strat Department</option>
+            <option value="tech">Tech Department</option>
+          </select>
+          <br>
+          <br>
+
+          <h3>Please select Hobbies</h3>
+          
+               <label class="container">Sport
+                     <input type="checkbox" name="hobbies" value="sport" checked="checked">
+                     <span class="checkmark"></span>
+                   </label>
+                   
+                   <label class="container">Trivia
+                     <input type="checkbox" name="hobbies" value="trivia">
+                     <span class="checkmark"></span>
+                   </label>
+      
+                   <label class="container">Fashion
+                        <input type="checkbox" name="hobbies" value="fash">
+                        <span class="checkmark"></span>
+                      </label>
+      
+                  <label class="container">None
+                     <input type="checkbox" name="hobbies" value="other">
+                     <span class="checkmark"></span>
+                     </label>
+          <br>
+          <h5>Comment below</h5>
+          <textarea class="comment" name="comm"></textarea>
+          <h3>Upload CV:</h3>
+         Select file: <br />
+         <input type="file" name="file" size="50" />
+         <br />
+         <button type ="submit" value="Submit">Submit</button>
+      </form> 
+      
+   </body>
+</html>
