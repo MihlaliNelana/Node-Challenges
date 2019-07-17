@@ -1,2 +1,2 @@
 # WeatherAPI
-Simple weather app 
+Simple weather app that will display weather in your current location. 
