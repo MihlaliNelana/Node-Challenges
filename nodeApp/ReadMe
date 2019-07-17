@@ -1,9 +1,9 @@
 Node App
 
-A card game running on a server<br>
+A card game running on a server
 
-Dependencies used: <br/>
-Express<br/>
+Dependencies used:
+Express
 
-npm i express<br/>
+npm i express
 hit the above command to install express for the application
