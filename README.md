@@ -5,3 +5,6 @@ All 4 Node Challenges
 #weather - A weather API <br/>
 #formApp - A form node.js application<br/>
 #node-rest-task4 - A Back-End service that will help capture basic information about prospective students.
+
+There are some challenges that do not have dependencies.<br/>
+
