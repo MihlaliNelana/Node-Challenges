@@ -1,0 +1,9 @@
+#Node App
+
+A card game running on a server<br>
+
+Dependencies used: <br/>
+Express<br/>
+
+npm i express<br/>
+hit the above command to install express for the application
